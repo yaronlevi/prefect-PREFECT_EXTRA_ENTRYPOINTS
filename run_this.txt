@@ -1,0 +1,6 @@
+run this command in the root folder:
+
+PREFECT_EXTRA_ENTRYPOINTS=some_module prefect agent start --work-queue "default"
+
+You will get an error:
+"Warning! Failed to load extra entrypoint 'some_module': ModuleNotFoundError: No module named 'some_module'"
